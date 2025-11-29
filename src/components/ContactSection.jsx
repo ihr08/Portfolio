@@ -1,9 +1,12 @@
 import {
   Instagram,
+  Linkedin,
   Mail,
   MapPin,
   Phone,
   Send,
+  Twitch,
+  Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -56,7 +59,7 @@ export const ContactSection = () => {
                     href="mailto:i.hrr.in@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    i.hrr.in@gmail.com
+                    i.hrr,in@gmail.com
                   </a>
                 </div>
               </div>
@@ -67,7 +70,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Phone</h4>
                   <a
-                    href="tel:+91 8699580616"
+                    href="tel:+91 869958061"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
                     +91 8699580616
@@ -91,9 +94,17 @@ export const ContactSection = () => {
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-4 justify-center">
                 <a href="#" target="_blank">
+                  <Linkedin />
+                </a>
+                <a href="#" target="_blank">
+                  <Twitter />
+                </a>
+                <a href="https://www.instagram.com/i.hr.in/" target="_blank">
                   <Instagram />
                 </a>
-                <a href="https://www.instagram.com/i.hr.in" target="_blank">
+                <a href="#" target="_blank">
+                  <Twitch />
+                </a>
               </div>
             </div>
           </div>
@@ -119,7 +130,7 @@ export const ContactSection = () => {
                   name="name"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="Harnoor Sekhon..."
+                  placeholder="Harnoor sekhon..."
                 />
               </div>
 
@@ -137,7 +148,7 @@ export const ContactSection = () => {
                   name="email"
                   required
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden foucs:ring-2 focus:ring-primary"
-                  placeholder="i.hrr.in@gmail.com"
+                  placeholder="harnoorsekhon@gmail.com"
                 />
               </div>
 
